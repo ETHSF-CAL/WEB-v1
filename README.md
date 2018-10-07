@@ -23,6 +23,11 @@ bitcoin-cli -rpcpassword=local321 -rpcuser=bitcoin -rpcport=18332 help
 bitcoin-cli -rpcpassword=local321 -rpcuser=bitcoin -rpcport=18332 generate 100
 ```
 
+# list unspent transaction output from block 0 to 9999999
+```
+bitcoin-cli -rpcpassword=local321 -rpcuser=bitcoin -rpcport=18332 listunspent 0 9999999 '["mto2aQFody9b6W1evi2zxAs4wkN4Y68jZG"]'
+```
+
 # Chain Abstraction Layer <img align="right" src="./liquality-logo.png" height="80px" />
 
 [![ChainAbstractionLayer](https://travis-ci.org/liquality/chainabstractionlayer.svg?branch=master)](https://travis-ci.org/liquality/chainabstractionlayer)
